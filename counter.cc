@@ -36,8 +36,10 @@ void count (ifstream &inputString)
 	while (!inputString.eof())
 	{
 		string temp;
-		inputString >> temp; //I don't know how to get it to work without making a dummy string
+		inputString >> temp; 
 		counter++;
+		//I don't know how to get it to work without making a dummy string
+		//it's like it needs to do something with the words it gets before it will go onto the next one?
 	}
 	cout << counter << endl;
 }
